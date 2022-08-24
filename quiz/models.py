@@ -72,8 +72,6 @@ class Question(Updated):
 class UserSubmittedAnswer(models.Model):
     user_fk = models.OneToOneField('account.UserProfile',
                                 verbose_name=_("User Profile"), on_delete=models.CASCADE, unique=True)
-    question = models.ForeignKey(Question, on_delete=models.CASCADE)
-    submitted_ans = models.CharField(max_length=255)
     score = models.IntegerField(default=0)
     def __int__(self):
         return self.user_fk

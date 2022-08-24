@@ -37,8 +37,8 @@ class QuizzesSerializer(serializers.ModelSerializer):
             'opt_3',
             'opt_4',
             'difficulty_level',
-            # 'right_opt',
-            # 'score',
+            'right_opt',
+            'score',
         )
        return difficulty_level
 
@@ -65,8 +65,6 @@ class UserSubmittedAnswerSerializer(serializers.ModelSerializer):
         model = UserSubmittedAnswer
         fields = [
             'user_fk',
-            'question',
-            'submitted_ans',
             'score'
 
         ]

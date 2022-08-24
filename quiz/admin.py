@@ -54,8 +54,6 @@ class UserSubmittedAnswerAdmin(admin.ModelAdmin):
 
     list_display = (
         'user_kf',
-        'question',
-        'submitted_ans',
         'score'
     )
 

@@ -76,7 +76,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'kavHRM',
         'USER': 'postgres',
-        'PASSWORD': 'ALHAMDULILLAH786@',
+        'PASSWORD': '12345',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
@@ -88,7 +88,7 @@ REST_FRAMEWORK = {
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     )
 }
-#JWT Settings
+# JWT Settings
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': datetime.timedelta(days=90),
     'REFRESH_TOKEN_LIFETIME': datetime.timedelta(days=90),
@@ -163,7 +163,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL = 'account.User'
 
 # Email Configuration
-EMAIL_BACKEND="django.core.mail.backends.smtp.EmailBackend"
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER = os.environ.get('EMAIL_USER')
@@ -171,7 +171,7 @@ EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASS')
 EMAIL_USE_TLS = True
 
 
-PASSWORD_RESET_TIMEOUT=900          # 900 Sec = 15 Min
+PASSWORD_RESET_TIMEOUT = 900          # 900 Sec = 15 Min
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",

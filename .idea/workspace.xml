@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18523e07-0504-4bbf-836c-1ed259bc8d92" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../frontend/src/Components/accountBox/JsonData.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/Components/accountBox/JsonData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KavtechHRM/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/KavtechHRM/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/migrations/0002_rename_reg_id_userprofile_user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/migrations/0003_rename_user_userprofile_user_fk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/migrations/0004_rename_user_fk_userprofile_reg_id.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/migrations/0005_rename_reg_id_userprofile_user_fk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/migrations/0006_userprofile_job_openings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +37,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../frontend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="InvalidFacetManager">
     <ignored-facets>
@@ -45,7 +58,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../LineUps" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -56,51 +69,7 @@
       <recent name="D:\KavtechHRM\backend_updated" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.manage">
-    <configuration name="KavTECHHRM" type="PythonConfigurationType" factoryName="Python">
-      <module name="KavtechHRM-2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="manage" type="PythonConfigurationType" factoryName="Python">
-      <module name="Skill Squad" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\sanaa\AppData\Local\Programs\Python\Python310\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
-      <option name="PARAMETERS" value="runserver 127.0.0.1:8000" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.KavHRM_debug">
     <configuration name="KavtechHRM-2" type="Python.DjangoServer" factoryName="Django server">
       <module name="KavtechHRM-2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,9 +94,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Django Server.KavtechHRM-2" />
-      <item itemvalue="Python.KavTECHHRM" />
-      <item itemvalue="Python.manage" />
+      <item itemvalue="Python.KavHRM_debug" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -178,6 +145,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -193,34 +161,34 @@
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/quiz/serializers.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/quiz/views.py</url>
-          <line>32</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/quiz/views.py</url>
           <line>33</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/quiz/views.py</url>
-          <line>34</line>
-          <option name="timeStamp" value="80" />
+          <line>40</line>
+          <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/quiz/views.py</url>
-          <line>40</line>
-          <option name="timeStamp" value="81" />
+          <line>41</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/quiz/views.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/quiz/views.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="98" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/quiz/views.py</url>
           <line>35</line>
-          <option name="timeStamp" value="82" />
+          <option name="timeStamp" value="99" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -236,10 +204,5 @@
         <watch expression="request.data.'education' (1307942862128)" />
       </configuration>
     </watches-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/backend_updated$KavHRM.coverage" NAME="KavTECHHRM Coverage Results" MODIFIED="1660119515836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
-    <SUITE FILE_PATH="coverage/backend$KavTECHHRM.coverage" NAME="KavTECHHRM Coverage Results" MODIFIED="1660716504203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
-    <SUITE FILE_PATH="coverage/backend$manage.coverage" NAME="manage Coverage Results" MODIFIED="1661247494971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

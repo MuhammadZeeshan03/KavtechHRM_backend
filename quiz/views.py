@@ -1,5 +1,5 @@
 from django.contrib.auth.decorators import login_required
-from django_filters import ModelChoiceFilter
+# from django_filters import ModelChoiceFilter
 from rest_framework import generics
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
@@ -21,41 +21,23 @@ class Quiz(generics.ListAPIView):
 
 class QuizQuestion(APIView):
     def get(self, request, format=None, **kwargs):
-        difficulty_level = Question.objects.filter(difficulty_level=kwargs['level'], quiz__category=kwargs['id'])
+        difficulty_level = Question.objects.filter(
+            difficulty_level=kwargs['level'], quiz__category=kwargs['id'])
         serializer = QuestionSerializer(difficulty_level, many=True)
         return Response(serializer.data)
 
 
 class UserSubView(APIView):
-    # renderer_classes = [UserRenderer]
-    # permission_classes = [IsAuthenticated]
+    renderer_classes = [UserRenderer]
+    permission_classes = [IsAuthenticated]
 
     def post(self, request, *args, **kwargs):
         data = request.data
-        test_data = [
-           UserSubmittedAnswerSerializer(
-            user_fk=data['user_fk'],
-            question=data['question'],
-            submitted_ans=data['submitted_ans']
-        )]
-        UserSubmittedAnswerSerializer.bulk_create(test_data)
-        # ##################################
-        # UserSubmittedAnswer.objects.bulk_create({
-        #     "user_fk": data['user_fk'],
-        #     "question": data['question'],
-        #     "submitted_ans": data['submitted_ans']
-        #
-        # }, batch_size = None)
+        test_data = {
+            "user_fk": data['user_fk'],
+            "score": data['score'],
 
-        # ##################################
-
-        # data = request.data
-        # test_data = {
-        #     "user_fk": data['user_fk'],
-        #     "question": data['question'],
-        #     "submitted_ans": data['submitted_ans']
-        #
-        # }
+        }
         serializer = UserSubmittedAnswerSerializer(data=test_data)
         serializer.is_valid(raise_exception=True)
         test = serializer.save()
