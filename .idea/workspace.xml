@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18523e07-0504-4bbf-836c-1ed259bc8d92" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KavtechHRM/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/KavtechHRM/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/0002_rename_reg_id_userprofile_user.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/0003_rename_user_userprofile_user_fk.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/0004_rename_user_fk_userprofile_reg_id.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/0005_rename_reg_id_userprofile_user_fk.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/0006_userprofile_job_openings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="18523e07-0504-4bbf-836c-1ed259bc8d92" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
